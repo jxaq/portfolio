@@ -1,9 +1,10 @@
 //import Image from "next/image";
+import TextMask from "@/components/TextMask";
 
 export default function Home() {
   return (
   <div className="flex-wrap justify-center black:invert">
-    <h1 className="text-slate-700 text-center text-xl">Jackson Kelly</h1>
+    <TextMask image="/name.jpg" text="Jackson Kelly" className="h-96 w-full" />
     <h4 className="text-slate-300">Aspiring Full-Stack Developer</h4>
   </div>);
 }
